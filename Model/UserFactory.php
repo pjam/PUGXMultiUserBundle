@@ -1,8 +1,8 @@
 <?php
 
-namespace PUGX\MultiUserBundle\Model;
+namespace pjam\MultiUserBundle\Model;
 
-use PUGX\MultiUserBundle\Model\UserFactoryInterface;
+use pjam\MultiUserBundle\Model\UserFactoryInterface;
 
 /**
  * @author leonardo proietti (leonardo.proietti@gmail.com)
