@@ -1,6 +1,6 @@
 <?php
 
-namespace PUGX\MultiUserBundle\DependencyInjection\Compiler;
+namespace pjam\MultiUserBundle\DependencyInjection\Compiler;
 
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
