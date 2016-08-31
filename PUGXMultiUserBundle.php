@@ -1,9 +1,9 @@
 <?php
 
-namespace PUGX\MultiUserBundle;
+namespace pjam\MultiUserBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
-use PUGX\MultiUserBundle\DependencyInjection\Compiler\OverrideServiceCompilerPass;
+use pjam\MultiUserBundle\DependencyInjection\Compiler\OverrideServiceCompilerPass;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 
 class PUGXMultiUserBundle extends Bundle
