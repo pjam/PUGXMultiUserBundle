@@ -3,7 +3,7 @@
     "type": "symfony-bundle",
     "description": "Symfony PUGXMultiUserBundle",
     "keywords": ["user management multi user management"],
-    "homepage": "https://github.com/PUGX",
+    "homepage": "https://github.com/pjam",
     "license": "MIT",
     "authors": [
         {
@@ -12,7 +12,7 @@
         },
         {
             "name": "Community",
-            "homepage": "https://github.com/PUGX/PUGXMultiUserBundle/contributors"
+            "homepage": "https://github.com/pjam/PUGXMultiUserBundle/contributors"
         }
     ],
     "require": {
