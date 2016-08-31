@@ -1,6 +1,6 @@
 <?php
 
-namespace PUGX\MultiUserBundle\DependencyInjection;
+namespace pjam\MultiUserBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
