@@ -1,14 +1,14 @@
 <?php
 
-namespace PUGX\MultiUserBundle\Form;
+namespace pjam\MultiUserBundle\Form;
 
-use PUGX\MultiUserBundle\Model\UserDiscriminator;
+use pjam\MultiUserBundle\Model\UserDiscriminator;
 use Symfony\Component\Form\FormFactoryInterface;
 use FOS\UserBundle\Form\Factory\FactoryInterface;
 
 class FormFactory implements FactoryInterface
 {
-    /** @var \PUGX\MultiUserBundle\Model\UserDiscriminator */
+    /** @var \pjam\MultiUserBundle\Model\UserDiscriminator */
     private $userDiscriminator;
     
     /**  @var FormFactoryInterface */
