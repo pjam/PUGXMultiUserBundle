@@ -1,9 +1,9 @@
 <?php
-namespace PUGX\MultiUserBundle\Controller;
+namespace pjam\MultiUserBundle\Controller;
 
 use FOS\UserBundle\Controller\ProfileController;
-use PUGX\MultiUserBundle\Form\FormFactory;
-use PUGX\MultiUserBundle\Model\UserDiscriminator;
+use pjam\MultiUserBundle\Form\FormFactory;
+use pjam\MultiUserBundle\Model\UserDiscriminator;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 
