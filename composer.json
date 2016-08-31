@@ -1,5 +1,5 @@
 {
-    "name": "pugx/multi-user-bundle",
+    "name": "pjam/pugx-multi-user-bundle",
     "type": "symfony-bundle",
     "description": "Symfony PUGXMultiUserBundle",
     "keywords": ["user management multi user management"],
@@ -27,9 +27,9 @@
     "suggest": {
     },
     "autoload": {
-        "psr-0": { "PUGX\\MultiUserBundle": "" }
+        "psr-0": { "pjam\\MultiUserBundle": "" }
     },
-    "target-dir": "PUGX/MultiUserBundle",
+    "target-dir": "pjam/MultiUserBundle",
     "extra": {
         "branch-alias": {
             "dev-master": "3.0.x-dev"
