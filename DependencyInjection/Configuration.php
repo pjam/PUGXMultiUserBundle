@@ -39,7 +39,7 @@ class Configuration implements ConfigurationInterface
                             ->arrayNode('entity')
                                 ->children()
                                     ->scalarNode('class')->isRequired()->cannotBeEmpty()->end()
-                                    ->scalarNode('factory')->defaultValue('PUGX\MultiUserBundle\Model\UserFactory')->end()
+                                    ->scalarNode('factory')->defaultValue('pjam\MultiUserBundle\Model\UserFactory')->end()
                                 ->end()              
                             ->end()
                         ->end()
