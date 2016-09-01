@@ -27,12 +27,12 @@ The branch (1.2) supports FOSUserBundle 1.2 and Symfony 2.0
 Documentation
 -------------
 
-[Read the Documentation](https://github.com/PUGX/PUGXMultiUserBundle/blob/master/Resources/doc/index.md)
+[Read the Documentation](https://github.com/pjam/PUGXMultiUserBundle/blob/master/Resources/doc/index.md)
 
 Installation
 ------------
 
-All the installation instructions are located in [documentation](https://github.com/PUGX/PUGXMultiUserBundle/blob/master/Resources/doc/index.md).
+All the installation instructions are located in [documentation](https://github.com/pjam/PUGXMultiUserBundle/blob/master/Resources/doc/index.md).
 
 License
 -------
