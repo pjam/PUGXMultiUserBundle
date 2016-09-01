@@ -12,7 +12,7 @@ class UserFactory implements UserFactoryInterface
     /**
      *
      * @param type $class
-     * @return \PUGX\MultiUserBundle\Model\class 
+     * @return \pjam\MultiUserBundle\Model\class 
      */
     public static function build($class)
     {        
