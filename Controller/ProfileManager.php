@@ -51,7 +51,7 @@ class ProfileManager
      * @param string $class
      * @return RedirectResponse
      */
-    public function edit($class)
+    public function edit($class, $options = array())
     {
         $this->userDiscriminator->setClass($class);
 
@@ -60,7 +60,12 @@ class ProfileManager
         if ($result instanceof RedirectResponse) {
             return $this->controller->redirect($this->getRequest()->getRequestUri());
         }
-
+        
+        if( isset($options['template']) && $options['template'] )
+            $template = $options['template'];
+        else
+            $template = $this->userDiscriminator->getTemplate('registration');
+        
         $template = $this->userDiscriminator->getTemplate('profile');
         if (is_null($template)) {
             $template = 'FOSUserBundle:Profile:edit.html.twig';
