@@ -54,14 +54,12 @@ class ProfileManager
     public function edit($class, $options = array())
     {
         $this->userDiscriminator->setClass($class);
-        
-        $flashes = $this->getRequest()->getSession()->getFlashBag()->all();
 
         $this->controller->setContainer($this->container);
         $result = $this->controller->editAction($this->getRequest());
-        if ($result instanceof RedirectResponse) {
+        /*if ($result instanceof RedirectResponse) {
             return $result;
-        }
+        }*/
         
         if( isset($options['template']) && $options['template'] )
             $template = $options['template'];
@@ -72,8 +70,6 @@ class ProfileManager
         if (is_null($template)) {
             $template = 'FOSUserBundle:Profile:edit.html.twig';
         }
-        
-        $this->getRequest()->getSession()->getFlashBag()->setAll($flashes);
 
         $form = $this->formFactory->createForm();
         return $this->container->get('templating')->renderResponse($template, array(
